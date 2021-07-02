@@ -1,5 +1,5 @@
 <?php
-namesapce Cto;
+namespace Cto;
 
 class Rain
 {
