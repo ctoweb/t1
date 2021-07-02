@@ -1,17 +1,15 @@
 {
-    "name": "raincode/t1",
-    "description": "A short description of what your package does",
-    "require": {
-        "php": ">=7.1"
-    },
-    "extra": {
-    	"laravel": {
-    		"providers": [
-    			"Barryvdh\\Debugbar\\ServiceProvider"
-    		],
-    		"aliases": {
-    			"Debugbar": "Barryvdh\\Debugbar\\Facade"
-    		}
-    	}
+    "name": "rain/p1",
+    "description": "first laravel package",
+    "authors": [
+        {
+            "name": "rain",
+            "email": "web_cto@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4":{
+             "Cto\\":"src"
+         }
     }
 }
